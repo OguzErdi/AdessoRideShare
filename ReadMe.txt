@@ -1,16 +1,16 @@
--Çalıştırmak için Docker Desktop kurulu olmalıdır.
--Projenin root'unda alttaki komut çalıştırılarak proje ayağa kaldırılabilir.
+-Ã‡alÄ±ÅŸtÄ±rmak iÃ§in Docker Desktop kurulu olmalÄ±dÄ±r.
+-Projenin root'unda alttaki komut Ã§alÄ±ÅŸtÄ±rÄ±larak proje ayaÄŸa kaldÄ±rÄ±labilir.
 	-docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
-- http://localhost:9000/swagger/index.html linkinden swagger sayfasından endpointler incelenebilir.
+- http://localhost:9000/swagger/index.html linkinden swagger sayfasÄ±ndan endpointler incelenebilir.
 
-- Post methoduda nullable alanalr sayfanın sonundaki RideViewModel'de gözlenebilir.
+- Post methoduda nullable alanlar sayfanÄ±n sonundaki RideViewModel'de gÃ¶zlenebilir.
 
--Şehirler kordinat olarak girilmeli.
-	Örnek:
+-Åehirler kordinat olarak girilmeli.
+	Ã–rnek:
 		Beggining: "0,1"
 		Destination: "3,3"
 
--Güzergahlar aranırken tüm yolları kapsayacak şekilde arama yaptım. 
-Basitçe verilen kordinatların x ve y aralıklarında olan tüm seyehatleri getirdim. 
-Arama yaparken o düzlemde gitti yön -aşağı/yukarı veya sola/sağa gitmesi- dikkate alındı.
+-GÃ¼zergahlar aranÄ±rken tÃ¼m yollarÄ± kapsayacak ÅŸekilde arama yaptÄ±m. 
+BasitÃ§e verilen kordinatlarÄ±n x ve y aralÄ±klarÄ±nda olan tÃ¼m seyehatleri getirdim. 
+Arama yaparken o dÃ¼zlemde gitti yÃ¶n -aÅŸaÄŸÄ±/yukarÄ± veya sola/saÄŸa gitmesi- dikkate alÄ±ndÄ±.
