@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+    adessorideshare_db:
+        image: redis #Redis offical image name is redis
+
+    adessorideshare.api:
+        image: ${DOCKER_REGISTRY-}adessorideshare_api
+        build:
+            context: .
+            dockerfile: src/AdessoRideShare.API/Dockerfile
