@@ -13,4 +13,4 @@
 
 -Güzergahlar aranırken tüm yolları kapsayacak şekilde arama yaptım. 
 Basitçe verilen kordinatların x ve y aralıklarında olan tüm seyehatleri getirdim. 
-Arama yaparken o düzlemde gitti yön -aşağı/yukarı veya sola/sağa gitmesi- dikkate alındı.
+Arama yaparken o düzlemde gittiği yön -aşağı/yukarı veya sola/sağa gitmesi- dikkate alındı.
